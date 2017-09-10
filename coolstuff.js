@@ -35,3 +35,27 @@ $('a[href*="#"]')
   });
 
 
+function validateForm() {
+    var x = document.forms["email-form"]["name"].value;
+    
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+    
+    var y = document.forms["email-form"]["email"].value;
+    
+    if (y == ""){
+        alert("Please provide an email address");
+        return false;
+    }
+    
+    var z = document.forms["email-form"]["message"].value;
+    
+    if (z == ""){
+        alert("Please provide a message");
+        return false;
+    }
+     
+    
+}

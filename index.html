@@ -9,23 +9,18 @@
         
     </head>
     
-
-    
     <body id=about-me>
     
         <div id = "wrapper">
-        
- 
-
             
             <nav id = "main-navigation">
                 <h1>Alexander Steel</h1>
                 <ul>
                     
-                    <li><a href = "#aboutme" class = "current">About Me</a></li>
+                    <li><a href = "#aboutme">About Me</a></li>
                     <li><a href = "#resume">Resume</a></li>
-                    <li><a href = "projects.html">Projects</a></li>
-                    <li><a href = "contact.html">Contact</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
                      <li><a href = "http://www.github.com/saucewagon/">Github</a></li>
                     
                 </ul>
@@ -35,64 +30,81 @@
             <div>
             
             
-            <div>
-                <a name = "aboutme"></a>
-            
-            <div id = "me-pic">
-                <img src="alex.jpg" alt="Me!">
-            </div>
-            
-            
-            <p>
-            
-                Hi there! I'm a Software Developer based in Victoria, BC. I'm entering my final year at the University of Victoria for my bachelor's degree in Computer Science and Software Engineering. 
-                <br>
-                <br>
-                My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
-                <br><br>
-                Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
-                <br><br>
-                Outside of technology, I also enjoy creating music, hiking and biking. I'm originally from the UK but have long called Canada home. 
-                
-                             
-                
-                   </div>
-                
-            </p>
-        </div>
-             <div>
-                 
-                 <a name = "resume">Resume</a>
-                 <p>
-                                 My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
-                <br><br>
-                Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
-                <br><br>
-                Outside of technology, I also enjoy creating music, hiking and biking. I'm originally from the UK but have long called Canada home. 
-                            My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
-                <br><br>
-                Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
-                <br><br>
-                Outside of technology, I also enjoy creating music, hiking and biking. I'm originally from the UK but have long called Canada home. 
-                            My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
-                <br><br>
-                Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
-                <br><br>
-                Outside of technology, I also enjoy creating music, hiking and biking. I'm originally from the UK but have long called Canada home. 
-                            My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
-                <br><br>
-                Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
-                <br><br>
+                <div>
+                    <a name = "aboutme"></a>
 
-                 </p>
+                    <div id = "me-pic">
+                        <img src="alex.jpg" alt="Me!">
+                    </div>
+
+
+                    <p>
+
+                    Hi there! I'm a Software Developer based in Victoria, BC. I'm entering my final year at the University of Victoria for my bachelor's degree in Computer Science and Software Engineering. 
+                    <br>
+                    <br>
+                    My goal is to benefit society by solving challenging problems. Of particular interest to me are environmental and geographic applications of technology. Some of my favourite companies are Tesla, who are accelerating the transition to electric transportation, and Khan Academy, which supports the democratization and digitization of education. 
+                    <br><br>
+                    Technically, I enjoy devising algorithms to solve problems, and the area of Machine Learning. I am an adept programmer in Java, but I have a breadth of experience in many other languages and technologies. 
+                    <br><br>
+                    Outside of technology, I also enjoy creating music, hiking and biking. I'm originally from the UK but have long called Canada home. 
+                    </p>
+
+                </div>
+                
+                
+                <div>
                  
+                    <a name = "resume"></a>
+                   
+                    <h3>Resume</h3>
+                    
+                        <div id = "resume-pic">
+                            <img src="resume.png" alt="Me!">
+                        </div>
+                    
+                    
+                </div>
+                
+                <div>
+                 
+                    <a name = "projects"></a>
+                   
+                    <h3>Projects</h3>
+                    
+                    <p>One day this will be a list of projects!</p>
+                                        
+                </div>
+                
+                
+                <div id = "form">
+                 
+                    <a name = "contact"></a>
+                   
+                    <h3>Contact</h3>
+                    
+                        <form name = "email-form" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                            Name:<br>
+                            <input type="text" name="name">
+                            <br><br>
+                            Email Address:<br>
+                            <input type="text" name="email">
+                            <br><br>
+                            Message:<br>
+                            <input type="text"  class = "resize" name="message">
+                            <br><br>
+                            <input type="submit" value="Send!">
+                        </form>                     
+                                        
+                </div>                
+                
             </div>
+        
+
             
         </div>       
-        <script src = "jquery-3.2.1.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src = "coolstuff.js"></script>
     </body>
-
-
 
 </html>
